@@ -16,13 +16,36 @@
     <main>
         <section id="login">
             <div id="imagem">
-
+                <!-- aqui vai a imagem -->
             </div>
+
             <div id="formulario">
                 <h1>Login</h1>
-                <p>seja bem-vindo(a) novamente. faça login na sua conta e poder fazer as configurações no seu ambiente. </p>
-                <form action="login.php" method="post">
+                <p>Seja bem-vindo(a) novamente. faça login na sua conta e poder fazer as configurações no seu ambiente. </p>
 
+                <form action="login.php" method="post" autocomplete="on">
+
+                    <div id="E-mail">
+                        
+                        <i class="fa-solid fa-user" id="icon-email"></i>
+
+                        <input type="email" name="email" id="iemail" required placeholder="seu E-mail" autocomplete="email">
+                    </div>
+
+                    <div id="senha">
+
+                        <i class="fa-solid fa-key" id="icon-senha"></i>
+
+                        <input type="password" name="sen" id="isenha" placeholder="sua senha" required autocomplete="new-password">
+                    </div>
+
+                    <div id="botoes">
+
+                        <input type="submit" value="Entrar" id="ientrar">
+
+                        <input type="reset" value="Esqueci a senha" id="lixo">
+
+                    </div>
                 </form>
             </div>
         </section>
