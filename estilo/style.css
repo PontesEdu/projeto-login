@@ -65,6 +65,7 @@ section#login{
 }
 
 h1{
+    font-size: 2em;
     text-align: center;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -96,51 +97,45 @@ input{
     background-color: #5f2c82;
     border-radius: 10px;
     padding: 2px;
-    text-align: end;
 }
 
 #iemail{
-    height: 98%;
-    width: 80%;
+    transform: translateY(-5px);
+    height: 99%;
+    width: calc(100% - 45px);
     border-radius: 8px; 
-    padding: 5px;
+    padding: 6px;
 }
 
 #icon-email{
     color: white;
-    font-size: 20px;
-
-    position: relative;
-    top: 10%;
-    right: 3%;
+    font-size: 1.4em;
+    padding: 10px;
 }
+
 
 /* input-senha (colocar a senha) */
 
 #senha{
-    margin-top: 5px; 
+    margin-top: 5px;
     height: 42px;
     background-color: #5f2c82;
     border-radius: 10px;
     padding: 2px;
-    text-align: end;
-    
 }
 
 #isenha{
+    transform: translateY(-5px);
     height: 99%;
-    width: 80%;
-    border-radius: 8px;
+    width: calc(100% - 45px);
+    border-radius: 8px; 
     padding: 5px;
 }
 
 #icon-senha{
     color: white;
-    font-size: 22px;
-    
-    position: relative;
-    top: 10%;
-    right: 3%;
+    font-size: 1.4em;
+    padding: 9px;
 }
 
 
